@@ -1,22 +1,25 @@
 body {
-    background-color: ivory; 
+  background-color: ivory; 
 
 }
+.project-wrapper{
+  display: flex;
+}
 .project-items-wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .project-item-wrapper {
-    position: relative;
-  }
-  .project-img-background {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 350px;
-    width: 100%;
-  }
-  h1{
-      display: flex;
-      justify-content: center;
-  }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.project-item-wrapper {
+  position: relative;
+}
+.project-img-background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
