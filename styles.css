@@ -55,14 +55,6 @@ body {
   color: black;
 }
 
-.portfolio-items-wrapper {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.portfolio-item-wrapper {
-  position: relative;
-}
 
 .portfolio-img-background {
   background-size: cover;
@@ -121,4 +113,25 @@ body {
 
 .profile-content-wrapper h1 {
   color: #972705;
+}
+
+@media (max-width:500px) {
+
+  .two-column-wrapper{
+    grid-template-columns: 1fr;
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+footer{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+}
+.contact {
+  height: 4em;
+  width: 4em;
 }

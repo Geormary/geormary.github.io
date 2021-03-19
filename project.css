@@ -1,25 +1,36 @@
-body {
+/* body {
   background-color: ivory; 
+  font-family: "Lato", sans-serif;
 
-}
-.project-wrapper{
+} */
+.projects{
   display: flex;
+  justify-content: space-evenly;
 }
-.project-items-wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-.project-item-wrapper {
-  position: relative;
-}
+
+
 .project-img-background {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 350px;
-  width: 100%;
+  width: 350px;
 }
 h1{
     display: flex;
     justify-content: center;
+    font-size: 5em;
+    font-family: "Lato", sans-serif;
+
+}
+
+
+.skills{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  
+}
+
+.skills{
+  position: relative;
 }
