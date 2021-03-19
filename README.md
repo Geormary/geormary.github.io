@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project will build on the technical and non-technical skills that you have learned up to now:
+This project was cd  build on the technical and non-technical skills that you have learned up to now:
 
 - Building Web sites with HTML and CSS
 - Using JavaScript to make Web sites interactive
