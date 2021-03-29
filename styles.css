@@ -120,6 +120,9 @@ body {
   }
   .projects {
     display: flex;
+/*   If you set up flex-box properly, you shouldn't need to change the flex-direction for small screens.
+    Using the justify-content and align-content properties should do what you need!
+    */
     flex-direction: column;
   }
 }
