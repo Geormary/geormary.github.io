@@ -4,6 +4,9 @@
 
 } */
 .projects{
+  /* consider using flex-wrap to make your flexbox more responsive!
+     Right now, your projects flow off screen when I make my screen small instead of wrapping!
+  */
   display: flex;
   justify-content: space-evenly;
 }
@@ -24,7 +27,7 @@ h1{
 
 }
 
-
+/* Consider using justify-content and align-content to control where in each cell the skills logos are placed */
 .skills{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
